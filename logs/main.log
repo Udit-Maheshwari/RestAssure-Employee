@@ -1,0 +1,842 @@
+09-18-2022 12:51:00 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:4151
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java WARN  [main] EmployeeRestAPI 67 - Response Time is Greater Than 2000
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"MaheshwariI","first_name":"UditL","email":"udita@gmail.com","id":"292","createdAt":"2022-09-18T07:21:07.090Z"}
+09-18-2022 12:51:11 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:160
+09-18-2022 12:51:11 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 12:51:11 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 12:51:16 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 12:51:16 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 12:51:16 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 12:51:16 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 12:51:16 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 12:51:16 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 12:51:16 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 12:51:16 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:465
+09-18-2022 12:51:16 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 12:51:17 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"Udito","job":"Software Engineerv","updatedAt":"2022-09-18T07:21:13.215Z"}
+09-18-2022 12:51:17 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 12:51:17 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 12:51:22 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 12:51:22 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 12:51:22 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 12:51:22 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 12:51:22 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 12:51:22 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 12:51:22 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 12:51:22 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:690
+09-18-2022 12:51:22 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 12:51:22 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 12:51:22 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 12:51:22 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 12:51:23 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 12:51:23 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 12:51:23 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 12:51:23 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 12:51:23 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 12:51:23 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 12:51:23 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 12:51:23 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 12:51:23 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 12:51:23 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:117
+09-18-2022 12:51:23 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 13:10:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 13:10:35 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 13:10:35 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 13:10:35 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 13:10:35 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 13:10:35 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 13:10:35 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 13:10:35 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 13:10:35 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1617
+09-18-2022 13:10:35 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 13:10:35 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"Maheshwarii","first_name":"UditF","email":"uditS@gmail.com","id":"577","createdAt":"2022-09-18T07:40:31.718Z"}
+09-18-2022 13:10:35 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 13:10:35 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 13:10:35 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 13:10:35 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 13:10:35 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 13:10:35 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 13:10:35 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 13:10:35 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 13:10:35 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 13:10:35 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 13:10:35 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 13:10:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:262
+09-18-2022 13:10:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 13:10:36 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 13:10:41 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 13:10:41 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 13:10:41 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 13:10:41 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 13:10:41 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 13:10:41 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 13:10:41 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 13:10:41 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:430
+09-18-2022 13:10:41 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 13:10:41 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"UditC","job":"Software EngineerB","updatedAt":"2022-09-18T07:40:37.779Z"}
+09-18-2022 13:10:41 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 13:10:41 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 13:10:47 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 13:10:47 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 13:10:47 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 13:10:47 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 13:10:47 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 13:10:47 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 13:10:47 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 13:10:47 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:454
+09-18-2022 13:10:47 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 13:10:47 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 13:10:47 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:283
+09-18-2022 13:10:47 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 13:12:07 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 13:12:15 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 13:12:15 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 13:12:15 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 13:12:15 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 13:12:15 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 13:12:15 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 13:12:15 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 13:12:15 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1531
+09-18-2022 13:12:15 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 13:12:16 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"MaheshwariW","first_name":"UditX","email":"uditg@gmail.com","id":"299","createdAt":"2022-09-18T07:42:12.131Z"}
+09-18-2022 13:12:16 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:233
+09-18-2022 13:12:16 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 13:12:16 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 13:12:21 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 13:12:21 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 13:12:21 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 13:12:21 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 13:12:21 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 13:12:21 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 13:12:21 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 13:12:21 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:426
+09-18-2022 13:12:21 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 13:12:21 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"UditE","job":"Software EngineerS","updatedAt":"2022-09-18T07:42:18.110Z"}
+09-18-2022 13:12:21 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 13:12:21 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 13:12:27 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 13:12:27 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 13:12:27 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 13:12:27 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 13:12:27 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 13:12:27 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 13:12:27 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 13:12:27 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:401
+09-18-2022 13:12:27 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 13:12:27 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 13:12:27 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:145
+09-18-2022 13:12:27 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:07:41 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:07:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 14:07:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:07:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 14:07:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 14:07:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 14:07:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 14:07:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 14:07:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1813
+09-18-2022 14:07:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 14:07:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"Maheshwarid","first_name":"Uditw","email":"uditj@gmail.com","id":"727","createdAt":"2022-09-18T08:37:45.298Z"}
+09-18-2022 14:07:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:193
+09-18-2022 14:07:50 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:07:50 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 14:07:56 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 14:07:56 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:07:56 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 14:07:56 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 14:07:56 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 14:07:56 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 14:07:56 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 14:07:56 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:465
+09-18-2022 14:07:56 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:07:56 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"UditE","job":"Software Engineeru","updatedAt":"2022-09-18T08:37:51.339Z"}
+09-18-2022 14:07:56 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 14:07:56 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 14:08:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 14:08:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 14:08:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 14:08:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 14:08:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 14:08:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 14:08:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 14:08:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:417
+09-18-2022 14:08:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:08:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 14:08:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 14:08:02 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 14:08:02 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 14:08:02 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:08:02 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 14:08:02 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 14:08:02 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 14:08:02 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 14:08:02 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 14:08:03 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:08:03 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 14:08:03 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:271
+09-18-2022 14:08:03 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:22:20 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:22:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 14:22:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:22:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 14:22:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 14:22:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 14:22:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 14:22:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 14:22:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1817
+09-18-2022 14:22:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 14:22:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"Maheshwarib","first_name":"Uditb","email":"uditL@gmail.com","id":"395","createdAt":"2022-09-18T08:52:23.973Z"}
+09-18-2022 14:22:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:178
+09-18-2022 14:22:29 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:22:29 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 14:22:34 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 14:22:34 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:22:35 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 14:22:35 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 14:22:35 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 14:22:35 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 14:22:35 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 14:22:35 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:414
+09-18-2022 14:22:35 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:22:35 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"UditX","job":"Software Engineerf","updatedAt":"2022-09-18T08:52:29.929Z"}
+09-18-2022 14:22:35 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 14:22:35 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 14:22:40 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 14:22:40 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 14:22:40 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 14:22:40 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 14:22:40 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 14:22:40 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 14:22:40 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 14:22:40 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:646
+09-18-2022 14:22:40 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:22:40 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 14:22:40 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 14:22:40 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 14:22:41 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 14:22:41 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:22:41 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 14:22:41 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 14:22:41 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 14:22:41 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 14:22:41 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 14:22:41 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:22:41 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 14:22:41 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:240
+09-18-2022 14:22:41 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:34:29 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:34:38 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 14:34:38 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:34:38 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 14:34:38 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 14:34:38 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 14:34:38 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 14:34:38 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 14:34:38 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1653
+09-18-2022 14:34:38 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 14:34:38 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"MaheshwariI","first_name":"UditJ","email":"uditr@gmail.com","id":"10","createdAt":"2022-09-18T09:04:32.946Z"}
+09-18-2022 14:34:38 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:196
+09-18-2022 14:34:38 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:34:38 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 14:34:44 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 14:34:44 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:34:44 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 14:34:44 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 14:34:44 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 14:34:44 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 14:34:44 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 14:34:44 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:600
+09-18-2022 14:34:44 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:34:44 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"Udity","job":"Software Engineerp","updatedAt":"2022-09-18T09:04:39.040Z"}
+09-18-2022 14:34:44 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 14:34:44 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 14:34:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 14:34:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 14:34:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 14:34:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 14:34:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 14:34:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 14:34:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 14:34:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:444
+09-18-2022 14:34:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:34:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 14:34:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:130
+09-18-2022 14:34:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:35:05 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:35:14 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 14:35:14 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:35:14 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 14:35:14 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 14:35:14 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 14:35:14 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 14:35:14 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 14:35:14 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1887
+09-18-2022 14:35:14 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 14:35:14 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"MaheshwariT","first_name":"UditJ","email":"uditR@gmail.com","id":"555","createdAt":"2022-09-18T09:05:08.960Z"}
+09-18-2022 14:35:14 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:186
+09-18-2022 14:35:14 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:35:14 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 14:35:19 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 14:35:19 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:35:19 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 14:35:19 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 14:35:19 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 14:35:19 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 14:35:20 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 14:35:20 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:434
+09-18-2022 14:35:20 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:35:20 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"Uditm","job":"Software EngineerP","updatedAt":"2022-09-18T09:05:14.923Z"}
+09-18-2022 14:35:20 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 14:35:20 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 14:35:25 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 14:35:25 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 14:35:25 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 14:35:25 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 14:35:25 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 14:35:25 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 14:35:25 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 14:35:25 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:492
+09-18-2022 14:35:25 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:35:25 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 14:35:25 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:222
+09-18-2022 14:35:25 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:51:28 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:51:37 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 14:51:37 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:51:37 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 14:51:37 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 14:51:37 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 14:51:37 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 14:51:37 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 14:51:37 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1914
+09-18-2022 14:51:37 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 14:51:37 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"Maheshwaric","first_name":"UditM","email":"uditY@gmail.com","id":"957","createdAt":"2022-09-18T09:21:32.177Z"}
+09-18-2022 14:51:37 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:346
+09-18-2022 14:51:37 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:51:37 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 14:51:43 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 14:51:43 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:51:43 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 14:51:43 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 14:51:43 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 14:51:43 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 14:51:43 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 14:51:43 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:459
+09-18-2022 14:51:43 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:51:43 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"UditG","job":"Software Engineeri","updatedAt":"2022-09-18T09:21:38.357Z"}
+09-18-2022 14:51:43 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 14:51:43 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 14:51:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 14:51:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 14:51:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 14:51:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 14:51:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 14:51:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 14:51:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 14:51:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:449
+09-18-2022 14:51:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:51:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 14:51:49 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:431
+09-18-2022 14:51:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:52:26 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:2762
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java WARN  [main] EmployeeRestAPI 67 - Response Time is Greater Than 2000
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"MaheshwariZ","first_name":"Udith","email":"uditw@gmail.com","id":"403","createdAt":"2022-09-18T09:22:31.025Z"}
+09-18-2022 14:52:36 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:321
+09-18-2022 14:52:36 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:52:36 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 14:52:42 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 14:52:42 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:52:42 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 14:52:42 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 14:52:42 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 14:52:42 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 14:52:42 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 14:52:42 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:568
+09-18-2022 14:52:42 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:52:42 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"Udita","job":"Software Engineerq","updatedAt":"2022-09-18T09:22:37.270Z"}
+09-18-2022 14:52:42 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 14:52:42 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 14:52:48 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 14:52:48 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 14:52:48 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 14:52:48 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 14:52:48 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 14:52:48 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 14:52:48 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 14:52:48 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:605
+09-18-2022 14:52:48 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:52:48 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 14:52:48 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 14:52:48 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 14:52:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 14:52:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:52:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 14:52:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 14:52:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 14:52:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 14:52:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 14:52:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:52:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 14:52:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:529
+09-18-2022 14:52:49 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:54:08 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:54:17 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 14:54:17 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:54:17 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 14:54:17 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 14:54:17 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 14:54:17 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 14:54:17 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 14:54:17 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1551
+09-18-2022 14:54:17 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 14:54:17 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"Maheshwarif","first_name":"UditX","email":"uditU@gmail.com","id":"126","createdAt":"2022-09-18T09:24:11.895Z"}
+09-18-2022 14:54:17 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:438
+09-18-2022 14:54:17 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:54:17 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 14:54:23 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 14:54:23 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:54:23 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 14:54:23 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 14:54:23 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 14:54:23 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 14:54:23 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 14:54:23 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:540
+09-18-2022 14:54:23 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:54:23 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"Uditu","job":"Software EngineerE","updatedAt":"2022-09-18T09:24:18.214Z"}
+09-18-2022 14:54:23 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 14:54:23 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 14:54:29 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 14:54:29 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 14:54:29 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 14:54:29 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 14:54:29 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 14:54:29 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 14:54:29 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 14:54:29 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:455
+09-18-2022 14:54:29 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:54:29 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 14:54:29 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:398
+09-18-2022 14:54:29 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:55:47 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:55:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 14:55:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:55:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 14:55:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 14:55:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 14:55:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 14:55:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 14:55:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1855
+09-18-2022 14:55:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 14:55:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"Maheshwaric","first_name":"UditE","email":"uditS@gmail.com","id":"320","createdAt":"2022-09-18T09:25:51.383Z"}
+09-18-2022 14:55:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:55:56 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 14:55:57 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 14:55:57 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:55:57 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 14:55:57 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:55:57 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 14:55:57 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 14:55:57 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 14:55:57 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 14:55:57 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 14:55:57 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:280
+09-18-2022 14:55:57 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:55:57 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 14:56:02 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 14:56:02 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:56:02 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 14:56:02 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 14:56:02 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 14:56:02 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 14:56:02 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 14:56:02 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:627
+09-18-2022 14:56:02 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:56:02 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"UditI","job":"Software EngineerC","updatedAt":"2022-09-18T09:25:57.671Z"}
+09-18-2022 14:56:02 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 14:56:02 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 14:56:08 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 14:56:08 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 14:56:08 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 14:56:08 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 14:56:08 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 14:56:08 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 14:56:08 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 14:56:08 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:523
+09-18-2022 14:56:08 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:56:08 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 14:56:08 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 14:56:08 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 14:56:09 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 14:56:09 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:56:09 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 14:56:09 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 14:56:09 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 14:56:09 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 14:56:09 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 14:56:09 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:56:09 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 14:56:09 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:535
+09-18-2022 14:56:09 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:59:18 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:59:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 14:59:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:59:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 14:59:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 14:59:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 14:59:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 14:59:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 14:59:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1678
+09-18-2022 14:59:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 14:59:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"Maheshwariz","first_name":"UditD","email":"uditK@gmail.com","id":"216","createdAt":"2022-09-18T09:29:22.065Z"}
+09-18-2022 14:59:27 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:343
+09-18-2022 14:59:27 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 14:59:27 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 14:59:33 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 14:59:33 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:59:33 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 14:59:33 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 14:59:33 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 14:59:33 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 14:59:33 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 14:59:33 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:513
+09-18-2022 14:59:33 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:59:33 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"Uditd","job":"Software EngineerU","updatedAt":"2022-09-18T09:29:28.385Z"}
+09-18-2022 14:59:33 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 14:59:33 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 14:59:39 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 14:59:39 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 14:59:39 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 14:59:39 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 14:59:39 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 14:59:39 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 14:59:39 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 14:59:39 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:502
+09-18-2022 14:59:39 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 14:59:39 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 14:59:39 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:242
+09-18-2022 14:59:39 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 15:00:50 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 15:00:58 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 15:00:58 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 15:00:59 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 15:00:59 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 15:00:59 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 15:00:59 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 15:00:59 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 15:00:59 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1747
+09-18-2022 15:00:59 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 15:00:59 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"MaheshwariC","first_name":"UditA","email":"uditP@gmail.com","id":"138","createdAt":"2022-09-18T09:30:53.866Z"}
+09-18-2022 15:00:59 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:142
+09-18-2022 15:00:59 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 15:00:59 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 15:01:04 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 15:01:04 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 15:01:04 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 15:01:04 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 15:01:04 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 15:01:04 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 15:01:04 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 15:01:04 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:438
+09-18-2022 15:01:04 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 15:01:04 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"UditJ","job":"Software Engineerq","updatedAt":"2022-09-18T09:30:59.725Z"}
+09-18-2022 15:01:04 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 15:01:04 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 15:01:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 15:01:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 15:01:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 15:01:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 15:01:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 15:01:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 15:01:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 15:01:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:423
+09-18-2022 15:01:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 15:01:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 15:01:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:269
+09-18-2022 15:01:10 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 15:03:56 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 23 - *****Started TC003_POST_Single_EmployeeDetail*****
+09-18-2022 15:04:04 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 75 - **********Checking Content Type**********
+09-18-2022 15:04:04 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 77 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 15:04:04 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 84 - **********Checking Server Type**********
+09-18-2022 15:04:04 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 86 - Server Type is==>:cloudflare
+09-18-2022 15:04:04 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 53 - *****Checking Status code*****
+09-18-2022 15:04:04 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 55 - Status code is==>201
+09-18-2022 15:04:04 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Response Time**********
+09-18-2022 15:04:04 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Response Time is==>:1589
+09-18-2022 15:04:04 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - *****Checking Response Body*****
+09-18-2022 15:04:04 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 44 - Response Body is==>{"last_name":"Maheshwarix","first_name":"Uditn","email":"udits@gmail.com","id":"470","createdAt":"2022-09-18T09:33:59.731Z"}
+09-18-2022 15:04:04 TC003_POST_Single_EmployeeDetail.java INFO  [main] EmployeeRestAPI 93 - *****Finished TC003_POST_Single_EmployeeDetail*****
+09-18-2022 15:04:04 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *************Started TC001_GET_All_EmployeeDetail****************
+09-18-2022 15:04:05 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 62 - **********Checking Content Type**********
+09-18-2022 15:04:05 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 64 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 15:04:05 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 30 - **********Check Response Body**********
+09-18-2022 15:04:05 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 33 - Response Body is ==>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 15:04:05 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Server Type**********
+09-18-2022 15:04:05 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Server Type is==>:cloudflare
+09-18-2022 15:04:05 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 40 - **********Check Status Code**********
+09-18-2022 15:04:05 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 42 - Resonse code is ==>200
+09-18-2022 15:04:05 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - **********Checking Response Time**********
+09-18-2022 15:04:05 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Response Time is==>:186
+09-18-2022 15:04:05 TC001_GET_All_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - ********** Finished TC001_GET_All_EmployeeDetail**********
+09-18-2022 15:04:05 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 22 - *****Started TC004_PUT_Existing_EmployeeDetail*****
+09-18-2022 15:04:10 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 72 - **********Checking Content Type**********
+09-18-2022 15:04:10 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 74 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 15:04:10 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 81 - **********Checking Server Type**********
+09-18-2022 15:04:10 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 83 - Server Type is==>:cloudflare
+09-18-2022 15:04:10 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 50 - *****Checking Status code*****
+09-18-2022 15:04:10 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 52 - Status code is==>200
+09-18-2022 15:04:10 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 59 - **********Checking Response Time**********
+09-18-2022 15:04:10 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 61 - Response Time is==>:475
+09-18-2022 15:04:10 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 15:04:10 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>{"name":"UditB","job":"Software EngineerH","updatedAt":"2022-09-18T09:34:05.673Z"}
+09-18-2022 15:04:10 TC004_PUT_Existing_EmployeeDetail.java INFO  [main] EmployeeRestAPI 90 - *****Finished TC004_PUT_Existing_EmployeeDetaill*****
+09-18-2022 15:04:10 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 19 - *****Started TC005_DELETE_EmployeeDetail*****
+09-18-2022 15:04:16 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 71 - **********Checking Content Type**********
+09-18-2022 15:04:16 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 73 - Content Type is==> :null
+09-18-2022 15:04:16 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 80 - **********Checking Server Type**********
+09-18-2022 15:04:16 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 82 - Server Type is==>:cloudflare
+09-18-2022 15:04:16 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 49 - *****Checking Status code*****
+09-18-2022 15:04:16 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 51 - Status code is==>204
+09-18-2022 15:04:16 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Response Time**********
+09-18-2022 15:04:16 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Response Time is==>:403
+09-18-2022 15:04:16 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 39 - *****Checking Response Body*****
+09-18-2022 15:04:16 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 41 - Response Body is==>
+09-18-2022 15:04:16 TC005_DELETE_EmployeeDetail.java INFO  [main] EmployeeRestAPI 89 - *****Finished TC005_DELETE_EmployeeDetai*****
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 18 - *****Started TC002_GET_SIngle_EmployeeDetail*****
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 58 - **********Checking Content Type**********
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 60 - Content Type is==> :application/json; charset=utf-8
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 67 - **********Checking Server Type**********
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 69 - Server Type is==>:cloudflare
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 36 - **********Check Status Code**********
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 38 - Resonse code is ==>200
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 27 - *****Checking Response Body*****
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 29 - Response Body is==>{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 45 - **********Checking Response Time**********
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 47 - Response Time is==>:383
+09-18-2022 15:04:16 TC002_GET_SIngle_EmployeeDetail.java INFO  [main] EmployeeRestAPI 76 - ********** Finished TC001_GET_All_EmployeeDetail**********
